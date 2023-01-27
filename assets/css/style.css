@@ -35,12 +35,14 @@ label input {
   width: 400px;
   height: 50px;
   font-size: 15px;
-  display: flex;
-  justify-content: end;
+  padding-left: 10px;
 }
 
 label input[name="message"] {
   height: 250px;
+}
+.container label input[name="message"] {
+  display: flex;
 }
 
 button {
