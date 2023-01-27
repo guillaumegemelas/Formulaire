@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- fichier JS import -->
+    <script src="./assets/js/main.js"></script>
+    <!-- Axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Exercice Formulaire</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulaire de contact</h1>
+
+      <div>
+        <form>
+          <label>
+            <input type="text" name="prenom" id="prenom" placeholder="Prénom"
+          /></label>
+          <label>
+            <input type="text" name="nom" id="nom" placeholder="Nom"
+          /></label>
+          <label>
+            <input type="email" name="email" id="email" placeholder="Email"
+          /></label>
+          <label>
+            <input type="text" name="sujet" id="sujet" placeholder="Sujet"
+          /></label>
+          <label>
+            <input
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Votre message ici"
+          /></label>
+
+          <button type="submit">Envoyer le message</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

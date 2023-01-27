@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Trip Sans";
+  background-color: #5c47d2;
+}
+
+h1 {
+  font-size: 25px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 500px;
+  background-color: rgb(230, 230, 230);
+  margin-top: 100px;
+  margin-bottom: 200px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  /* background-color: green; */
+  flex-direction: column;
+  gap: 20px;
+}
+
+label input {
+  /* background-color: aqua; */
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+  display: flex;
+  justify-content: end;
+}
+
+label input[name="message"] {
+  height: 250px;
+}
+
+button {
+  width: auto;
+  height: 40px;
+  background-color: #5c47d2;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
