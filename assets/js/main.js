@@ -19,5 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
     //requête vers le serveur en local
     const response = await axios.post("http://localhost:3000/form", data);
     console.log(response);
+    //il faudra changer l'adressesi on veut mettre sur le serveur
+    //idem exo sur vinted backend
+    // const response = await axios.post(
+    //   "https://chipper-gelato-d55fff.netlify.app",
+    //   data
+    // );
+    console.log(response);
   });
 });
