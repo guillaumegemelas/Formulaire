@@ -18,7 +18,7 @@ h1 {
   height: auto;
   width: 500px;
   background-color: rgb(230, 230, 230);
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 200px;
   border-radius: 10px;
 }
@@ -38,11 +38,21 @@ label input {
   padding-left: 10px;
 }
 
-label input[name="message"] {
+/* label input[name="message"] {
   height: 250px;
-}
-.container label input[name="message"] {
+} */
+/* .container label input[name="message"] {
   display: flex;
+} */
+
+.container textarea {
+  font-family: "Trip Sans";
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: normal;
+  width: 400px;
+  height: 250px;
 }
 
 button {
