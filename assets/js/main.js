@@ -17,11 +17,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
       console.log(data);
 
-      //requête vers le serveur avec requete en local (port 3000)
+      //requête vers le serveur Northflank (url donnée par North)
       const response = await axios.post(
         "https://site--formulaire-back--zqfvjrr4byql.code.run/form",
         data
       );
+
+      //en local pour démarrer et tester notr projet
+      //const response = await axios.post(
+      //   "http://localhost:3000/form",
+      //   data
+      // );
+      //
 
       //il faudra changer l'adresse si on veut faire requete en ligne (pas en local) depuis url donnée pas Netlify:
       // const response = await axios.post(
